@@ -1,0 +1,122 @@
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 780px;
+    margin: 0 auto;
+    background: #FFF;
+    box-shadow: 0 9px 13px 5px;
+}
+header{
+    height: 20px;
+    padding: 45px 0 20px 40px;
+    box-shadow: 0 9px 13px 5px;
+    
+    
+}
+.menu{
+    background-color: #3b7687;
+    padding: 6px 0 6px 40px;
+    box-shadow: 0 9px 13px 5px;
+}
+.menu a{
+    color: #c5d6db;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Arial Narrow", "Myriad Pro";
+}
+.menu a:hover{
+    color: #ecf2f3;
+}
+aside{
+    float: left;
+    width: 23%;
+    padding: 30px 0 0 40px;
+}
+h1{
+    margin: 0;
+    color: #869843;
+    font-size: 24px;
+    font-family: "Arial Narrow", "Myriad Pro";
+    font-weight: normal;
+}
+h2{
+    color: #3b7687;
+    font-size: 15px;
+    margin: 20px 0 5px 0;
+}
+.main{
+    margin: 0px 0px 0px 180px;
+    padding: 35px 40px 0 30px;
+    color: #444444;
+    font-family: "Georgia";
+    font-size: 13px;
+    line-height: 18px;
+    text-align: justify;
+}
+.main:hover{
+    color: #444444;
+}
+.footer{
+    padding: 6px 40px 6px 40px;
+    background: #d6d6d6;
+    font-family: "Lucida Sans Unicode";
+    color: #444444;
+    font-size: 10px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: #262626;
+}
+.link-title{
+    text-decoration: none;
+    font-size: 24px;
+    color: #444444;
+}
+.separator{
+    color: #3b7687;
+    font-size: 11px;
+    font-weight:bold;
+}
+#home-image{
+    float: left;
+    width: 100%;
+}
+/***************About page styles*****************/
+#about-page #about-image{
+    width: 77%;
+    float: left;
+}
+/***************Contact page styles***************/
+
+.page-heading{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
+input{
+    display: block;
+    width: 40%;
+    height: 20px;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 0 auto;
+    
+}
+#contact #form #message{
+    display: block;
+    width: 40%;
+    border-radius: 5px;
+    background-color: lightgray;
+    margin: 0 auto;
+}
+#contact #form #submit{
+    display: block;
+    width: 20%;
+    height: 30px;
+    background-color: #3b87;
+    color: white;
+    margin: 0 auto;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minimalisitc Website</title>
+        <link rel="stylesheet" href="../css/style.css" type="text/css">   
+    </head>
+    <body>
+        <div class="tableContainer">
+            <header>
+                Minimalistic Website
+            </header>
+            <nav class="menu">
+                <a href="../indes.html">Home</a> &nbsp; &nbsp; &nbsp;
+                <a href="../About/About.html">AboutUs</a> &nbsp; &nbsp; &nbsp;
+                <a href="form.html" target="_blank">Contact</a> &nbsp; &nbsp; &nbsp;
+            </nav>
+            <div class="form">
+                <form method="post" id="form" action="">
+                    <p>
+                        <label for="first name"></label>
+                        <input type="text" name="first name" placeholder="*first name" class="input" required>
+                    </p>
+                    <p>
+                        <label for="last name"></label>
+                        <input type="text" name="last name" placeholder="*last name" class="input" required>
+                    </p>
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="*email" class="input" required>
+                    </p>
+                    <p>
+                        <label for="password"></label>
+                        <input type="password" name="password" placeholder="*password" class="input" required>
+                    </p>
+                    <p>
+                        <label for="message"></label>
+                        <textarea id="message" name="message" cols="30" rows="10" placeholder="message(optional)" required></textarea>
+                    </p>
+                    <p>
+                        <label for="submit"></label>
+                        <input type="submit" id="submit" placeholder="submit" value="send message">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

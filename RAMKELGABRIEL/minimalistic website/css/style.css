@@ -1,0 +1,16 @@
+.container{
+    width: 900px;
+    margin:0 auto;
+    padding: 20px;
+    background-color:darkviolet
+    
+}
+body{
+    background:#667788;
+}
+
+p{
+    font-family: sans-serif;
+    
+    
+}

@@ -1,0 +1,25 @@
+h1{
+    color: crimson;
+    font-family: monospace;
+    font-size: 50px;
+}
+h3{
+    color: blue;
+    font-family: inherit;
+    
+}
+img{
+    width: inherit;
+}
+p{
+    color: chartreuse;
+    padding: inherit;
+    margin: auto;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: blueviolet;
+   
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Minimalistic Website</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    </head>
+    <body>
+<!--        <div class="container">-->
+            <header class="header" href>
+                <a href="../index.html" class="link-title">Minimalistic Website</a>
+            </header>
+            <nav class="menu">
+                <a href="../index.html">Home</a> &nbsp; &nbsp; &nbsp;
+                <a href="../about/about.html">About Us</a> &nbsp; &nbsp; &nbsp;
+                <a href="contact.html" target="_blank">Contact</a> &nbsp; &nbsp; &nbsp;
+            </nav>
+            <h1 class="page-heading">Contact:</h1>
+            <div id="contact">
+                <form method="post" action="process.php" id="form">
+                    <p>
+                        <label for="firstname"></label>
+                        <input type="text" name="firstname" placeholder="* First name" class="input" required>
+                    </p>
+                    <p>
+                        <label for="lastname"></label>
+                        <input type="text" name="lastname" placeholder="* Last name" class="input" required>
+                    </p>
+                    <p>
+                        <label for="email"></label>
+                        <input type="email" name="email" placeholder="* E-mail" class="input" required>
+                    </p>
+                    <p>
+                        <label for="password"></label>
+                        <input type="password" name="password" placeholder="* Password" class="input" required>
+                    </p>
+                    <p>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message (Optional)"></textarea>
+                    </p>
+                    <p>
+                        <label for="file"></label>
+                        <input type="file" name="image" placeholder="* Image image" required>
+                    </p>
+                    <p>
+                        <label for="submit"></label>
+                        <input type="submit" name="submit" id="submit" value="send message">
+                    </p>
+                </form>
+<!--            </div>-->
+            <footer class="footer">
+                <p>&copy;2018 Minimal Website&nbsp;Design by&nbsp;<a href="https://www.google.com" target="_blank">Ramkel Gabriel</a></p>
+            </footer>
+        </div>
+    </body>
+</html>

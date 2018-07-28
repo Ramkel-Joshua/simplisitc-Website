@@ -1,0 +1,13 @@
+table, td{
+    border: 1px solid black;
+}
+h2{
+    font-size: 40px;
+    color: chartreuse;
+}
+input{
+    background: lightgray;
+    color: white;
+}
+
+
